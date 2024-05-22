@@ -20,8 +20,11 @@ export default function Contacts() {
             });
         }
     }
+
     // Show and Hide Label
+
     showAndHideLabel();
+
     return (
         <>
             <section className="min-h-screen flex items-start flex-col justify-start pt-5 text-white">
