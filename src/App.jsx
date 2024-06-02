@@ -1,12 +1,12 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import About from "./Components/Pages/About/About";
-import Contacts from "./Components/Pages/Contacts/Contacts";
+import About from "./Pages/About/About";
+import Contacts from "./Pages/Contacts/Contacts";
 import Layout from "./Components/Layout/Layout";
-import NotFoundPage from "./Components/Pages/NotFoundPage/NotFoundPage";
+import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 
 import "./App.css";
-import Home from "./Components/Pages/Home/Home";
-import Portfolio from "./Components/Pages/Portfolio/Portfolio";
+import Home from "./Pages/Home/Home";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 
 export default function App() {
     let route = createBrowserRouter([

@@ -3,9 +3,8 @@ export default function Model({ currentImg, status, setStatus }) {
         <>
             {status && (
                 <div
-                    onClick={(e) => {
-                        const hero = document.querySelector(".hero");
-                        if (e.target == hero) {
+                    onClick={function (e) {
+                        if (e.target != e.target.firstChild.firstChild) {
                             setStatus(false);
                         }
                     }}
